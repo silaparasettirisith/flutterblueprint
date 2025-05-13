@@ -1,0 +1,50 @@
+{
+  "generator-jhipster": {
+    "additionalSubGenerators": "flutter",
+    "baseName": "flutter",
+    "caret": true,
+    "cli": true,
+    "cliName": "fnhipster",
+    "entities": [],
+    "generators": {
+      "app": {
+        "command": false,
+        "priorities": ["initializing", "prompting", "configuring", "loading", "default", "writing", "install", "end"],
+        "sbs": true,
+        "written": true
+      },
+      "flutter": {
+        "command": false,
+        "priorities": [
+          "initializing",
+          "prompting",
+          "configuring",
+          "loading",
+          "preparing",
+          "configuringEachEntity",
+          "loadingEntities",
+          "preparingEachEntity",
+          "preparingEachEntityField",
+          "preparingEachEntityRelationship",
+          "postPreparingEachEntity",
+          "default",
+          "writing",
+          "writingEntities",
+          "postWriting",
+          "postWritingEntities",
+          "end"
+        ],
+        "sbs": null,
+        "written": true
+      }
+    },
+    "githubWorkflows": true,
+    "jhipsterVersion": "8.10.0",
+    "js": false,
+    "localBlueprint": false,
+    "packageJsonType": "module",
+    "sampleWritten": true,
+    "skipCommitHook": true,
+    "subGenerators": ["app", "flutter"]
+  }
+}

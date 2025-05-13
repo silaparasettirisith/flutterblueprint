@@ -1,0 +1,18 @@
+import 'package:flutter/material.dart';
+
+class <%= entityFileName %>Widget extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Entity File Name'),
+      ),
+      body: Center(
+        child: Text(
+          <%= entityFileName %>,
+          style: TextStyle(fontSize: 24),
+        ),
+      ),
+    );
+  }
+}
